@@ -12,4 +12,8 @@ Examples:
 """
 def sort_by_length(lst):
     # Your code here
+    lst.sort(key=len, reverse=False)
+    print(lst)
 
+
+sort_by_length(["apple", "pie", "shortcake"])
